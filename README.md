@@ -10,21 +10,21 @@ Doors open at 12:30 PM.
 
 Registration: [AIBOM-workshop-RSAC2024](https://lu.ma/AIBOM-workshop-RSAC2024))
 
-| Time       | Topic                                                               | Speaker                                   |
-|------------|---------------------------------------------------------------------|-------------------------------------------|
-| 1:00 PM    | Opening remarks                      | Sebastian Lange, CSO at SAP                          |
-| 1:10 PM    | Lightning talks: on-going efforts on AIBOM in the community         |                                           |
-|            | "What's Inside There? Model Metadata and Metrics for AI/ML BoMs"    | Diana Kelly and Sam Washko               |
-|            | Recap on on-going workstreams on AI supply chain security from SPDX and CycloneDX          | Helen Oakley and Steve Springett      |
-|            | "AI Risk Assessment through Threat Modeling and use cases for AIBOM automation" | Helen Oakley    |
-|            | "The State of AIBOMs: use cases, contents, regulations, and tools"  | Daniel Bardenstein                        |
-|            | "Understanding vulnerabilities and weaknesses of AI"                | Dmitry Raidman                            |
-|            | "AI Policy and Software Supply Chain: transparency and security for managing suppliers, services and product" | Nicholas Vidovich   |
-|            |TBD | Alex Sharpe   |
-| 2:20 PM    | Break                                                               |                                           |
-| 2:35 PM    | Structured group discussion (details below) | |
-| 3:35 PM    | Closing remarks by Allan Friedman, Senior Advisor and Strategist at CISA | Allan Friedman                        |
-| 3:40 PM    | Networking                                                          |                                           |
+| Time         | Topic                                                               | Speaker                                   |
+|--------------|---------------------------------------------------------------------|-------------------------------------------|
+| 1:00 PM      | Opening remarks                      | Sebastian Lange, CSO at SAP                          |
+| 1:10 PM      | Lightning talks: on-going efforts on AIBOM in the community         |                                           |
+|              | "What's Inside There? Model Metadata and Metrics for AI/ML BoMs"    | Diana Kelly and Sam Washko               |
+|              | Recap on on-going workstreams on AI supply chain security from SPDX and CycloneDX          | Helen Oakley and Steve Springett      |
+|              | "AI Risk Assessment through Threat Modeling and use cases for AIBOM automation" | Helen Oakley    |
+|              | "The State of AIBOMs: use cases, contents, regulations, and tools"  | Daniel Bardenstein                        |
+|              | "Understanding vulnerabilities and weaknesses of AI"                | Dmitry Raidman                            |
+|              | "AI Policy and Software Supply Chain: transparency and security for managing suppliers, services and product" | Nicholas Vidovich   |
+|              |TBD | Alex Sharpe   |
+| 2:20 PM      | Break                                                               |                                           |
+| 2:35 PM      | Structured group discussion (details below) | |
+| 3:35 PM      | Closing remarks by Allan Friedman, Senior Advisor and Strategist at CISA | Allan Friedman                        |
+| 3:40 PM      | Networking                                                          |                                           |
 
 
 ## Structured Group Discussion
