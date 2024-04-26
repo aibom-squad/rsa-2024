@@ -7,6 +7,7 @@ Welcome to an enlightening afternoon at the AI-BOM Workshop, conveniently timed 
 
 ## Agenda
 Doors open at 12:30 PM.
+
 Registration: [AIBOM-workshop-RSAC2024](https://lu.ma/AIBOM-workshop-RSAC2024))
 
 | Time       | Topic                                                               | Speaker                                   |
@@ -14,7 +15,7 @@ Registration: [AIBOM-workshop-RSAC2024](https://lu.ma/AIBOM-workshop-RSAC2024))
 | 1:00 PM    | Opening remarks                      | Sebastian Lange, CSO at SAP                          |
 | 1:10 PM    | Lightning talks: on-going efforts on AIBOM in the community         |                                           |
 |            | "What's Inside There? Model Metadata and Metrics for AI/ML BoMs"    | Diana Kelly and Sam Washko               |
-|            | Recap on on-going workstreams on AI supply chain security from SPDX and CycloneDX          | Helen Oakley and Springett      |
+|            | Recap on on-going workstreams on AI supply chain security from SPDX and CycloneDX          | Helen Oakley and Steve Springett      |
 |            | "AI Risk Assessment through Threat Modeling and use cases for AIBOM automation" | Helen Oakley    |
 |            | "The State of AIBOMs: use cases, contents, regulations, and tools"  | Daniel Bardenstein                        |
 |            | "Understanding vulnerabilities and weaknesses of AI"                | Dmitry Raidman                            |
@@ -32,11 +33,11 @@ Attendees will divide into groups, each focusing on a specific topic. The initia
 
 | Topic                                                                                        | Description                                                                                                        |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| What fields should (and should not be) in an AIBOM? (e.g. model weights, visualizations of model performance) | This topic explores the essential and non-essential components to include in an AIBOM, such as model weights and visualizations of model performance. |
-| Minimum elements                                                                           | Discusses the minimum set of elements required in an AIBOM to ensure comprehensive coverage and functionality.        |
-| Collection of data for AIBOM properties (eg. about training)                                  | Examines the process of collecting and managing data for AIBOM properties, particularly focusing on training data.   |
-| Standardized framework for AI dev & DevOps (MLOps) (E.g. model versioning)                   | Explores the development and DevOps practices necessary to establish a standardized framework for AI, including model versioning. |
+| What fields should (and should not be) in an AIBOM? | This topic explores the essential and non-essential components to include in an AIBOM, such as model weights and visualizations of model performance. (Examples: model weights, visualizations of model performance) |
+| Minimum elements of AIBOM                                                                           | Discusses the minimum set of elements required in an AIBOM to ensure comprehensive coverage and functionality.        |
+| Collection of data for AIBOM properties                                  | Examines the process of collecting and managing data for AIBOM properties. (Example: data about training)  |
+| Standardized framework for AI dev & DevOps (MLOps)                   | Explores the development and DevOps practices necessary to establish a standardized framework for AI. (Example: model versioning) |
 | AI “Risks” and “Vulnerabilities” (as it pertains to fields in the AIBOM)                      | Analyzes the risks and vulnerabilities associated with AI systems, specifically in relation to the AIBOM fields.   |
-| Creating or identifying infrastructure for AI risks a la NVD, CVE, CVSS, EPSS, KEV            | Discusses the establishment or identification of infrastructure similar to NVD, CVE, CVSS, EPSS, and KEV for managing AI-related risks. |
+| Creating or identifying infrastructure for AI risks            | Discusses the establishment or identification of infrastructure similar to NVD, CVE, CVSS, EPSS, and KEV for managing AI-related risks. |
 | AIBOM use cases (including biz operations & risk management)                                  | Explores various use cases of AIBOM in business operations and risk management to demonstrate its practical applications. |
 
