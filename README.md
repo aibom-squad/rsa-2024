@@ -14,7 +14,7 @@ Registration: [AIBOM-workshop-RSAC2024](https://lu.ma/AIBOM-workshop-RSAC2024)
 |------------|----------------------------------------------------------------------|-------------------------------------------|
 | 13:00      | Opening remarks                      | [Sebastian Lange](https://www.linkedin.com/in/selange/), CSO at SAP                          |
 | 13:10      | Lightning talks: on-going efforts on AIBOM in the community         |                                           |
-|            | "What's Inside There? Model Metadata and Metrics for AI/ML BoMs"    | [Diana Kelly](https://www.linkedin.com/in/dianakelleysecuritycurve/) and [Sam Washko](https://www.linkedin.com/in/sam-washko-097486aa/) (10 min)              |
+|            | "What's Inside There? Model Metadata and Metrics for AI/ML BoMs"    | [Diana Kelley](https://www.linkedin.com/in/dianakelleysecuritycurve/) and [Sam Washko](https://www.linkedin.com/in/sam-washko-097486aa/) (10 min)              |
 |            | Recap on on-going workstreams on AI supply chain security from CycloneDX and SPDX          | [Steve Springett](https://www.linkedin.com/in/stevespringett/) (5 min) and [Helen Oakley](https://www.linkedin.com/in/helen-oakley/) (5 min)    |
 |            | "AI Risk Assessment through Threat Modeling and use cases for AIBOM automation" | [Helen Oakley](https://www.linkedin.com/in/helen-oakley/) (10 min)   |
 |            | "The State of AIBOMs: use cases, contents, regulations, and tools"  | [Daniel Bardenstein](https://www.linkedin.com/in/bardenstein/) (10 min)                       |
