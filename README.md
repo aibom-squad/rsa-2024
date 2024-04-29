@@ -20,7 +20,7 @@ Registration: [AIBOM-workshop-RSAC2024](https://lu.ma/AIBOM-workshop-RSAC2024)
 |            | "The State of AIBOMs: use cases, contents, regulations, and tools"  | [Daniel Bardenstein](https://www.linkedin.com/in/bardenstein/) (10 min)                       |
 |            | "Understanding vulnerabilities and weaknesses of AI"                | [Dmitry Raidman](https://www.linkedin.com/in/draidman/) (10 min)                           |
 |            | "AI Policy and Software Supply Chain: transparency and security for managing suppliers, services and product" | [Nicholas Vidovich](https://www.linkedin.com/in/nicholasvidovich/) (10 min)  |
-|            |TBD | [Alex Sharpe](https://www.linkedin.com/in/alex-sharpe-3rd/)   |
+|            |"The role of AI BOMs in providing the transparency necessary to foster the safety and security of AI and our Critical Infrastructure" | [Alex Sharpe](https://www.linkedin.com/in/alex-sharpe-3rd/)   |
 | 14:20      | Break                                                               |                                           |
 | 14:35      | Structured group discussion (details below) | |
 | 15:35      | Closing remarks by Allan Friedman, Senior Advisor and Strategist at CISA | [Allan Friedman](https://www.linkedin.com/in/allanafriedman/), Senior Advisor and Strategist at CISA (5 min)                       |
