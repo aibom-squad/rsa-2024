@@ -1,0 +1,247 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-5a8821a69c99",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "bom-ai-app",
+      "type": "application",
+      "name": "AI app",
+      "version": "2.1",
+      "description": "AI app with machine learning models and datasets"
+    },
+    "timestamp": "2024-05-5T12:16:23Z",
+    "authors": [
+      {
+        "name": "Cybeats"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "bom-pytorch/torchserve",
+      "type": "framework",
+      "cpe": "cpe:2.3:a:pytorch:torchserve:0.10.0:*:*:*:*:*:*:*",
+      "name": "pytorch",
+      "version": "0.10.0",
+      "purl": "pkg:pypi/torchserve@0.10.0",
+      "licenses": [{ "license": { "id": "Apache-2.0" } }]
+    },
+    {
+      "bom-ref": "openlm-research/open_llama_3b_v2",
+      "type": "machine-learning-model",
+      "author": "Xinyang Geng* and Hao Liu*",
+      "name": "open_llama_3b_v2",
+      "group": "openlm-research",
+      "version": "bce5d60",
+      "purl": "pkg:pytorch/openlm-research/open_llama_3b_v2@bce5d60",
+      "description": "OpenLLaMA: An Open Reproduction of LLaMA",
+      "licenses": [{ "license": { "id": "Apache-2.0" } }],
+      "modelCard": {
+        "modelParameters": {
+          "task": "text-generation",
+          "modelArchitecture": "LlamaForCausalLM",
+          "datasets": [
+            { "ref": "bom-tiiuae/falcon-refinedweb" },
+            { "ref": "bom-bigcode/starcoderdata" },
+            { "ref": "bom-togethercomputer/RedPajama-Data-1T" }
+          ],
+          "inputs": [{ "format": "string" }],
+          "outputs": [{ "format": "string" }]
+        },
+        "quantitativeAnalysis": {
+          "performanceMetrics": [
+            { "type": "anli_r1/acc", "value": "0.33" },
+            { "type": "anli_r2/acc", "value": "0.36" },
+            { "type": "anli_r3/acc", "value": "0.39" }
+          ]
+        },
+        "considerations": {},
+        "properties": [
+          { "value": "transformers", "name": "pkgType" },
+          { "value": "english", "name": "language"}
+        ]
+      },
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/openlm-research/open_llama"
+        },
+        {
+          "type": "website",
+          "url": "https://huggingface.co/openlm-research/open_llama_3b_v2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bom-tiiuae/falcon-refinedweb",
+      "type": "data",
+      "author": "RefinedWeb",
+      "name": "falcon-refinedweb",
+      "group": "tiiuae",
+      "version": "c735840",
+      "purl": "pkg:dataset/tiiuae/falcon-refinedweb@c735840",
+      "description": "Falcon RefinedWeb is a massive English web dataset built by TII and released under an ODC-By 1.0 license.",
+      "licenses": [{ "license": { "id": "ODC-By-1.0" } }],
+      "data": [
+        {
+          "type": "dataset",
+          "name": "tiiuae/falcon-refinedweb",
+          "contents": {
+            "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb/tree/main/data",
+            "properties": [
+              { "value": "english", "name": "languages"}
+            ]
+          },
+          "sensitiveData": [
+            "train-00469-of-05534-091b605405757e80.parquet",
+            "train-05173-of-05534-89a6010f36952b23.parquet",
+            "train-01321-of-05534-33f5f5037840e6c4.parquet",
+            "train-00736-of-05534-e8ec8a9176080edd.parquet",
+            "train-05243-of-05534-ab7a11bf1daa70b3.parquet",
+            "train-01246-of-05534-67caa278f4d1cc0a.parquet"
+          ]
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb"
+        },
+        { "type": "website", "url": "https://arxiv.org/abs/2306.01116" },
+        { "type": "support", "url": "falconllm@tii.ae" }
+      ]
+    },
+    {
+      "bom-ref": "bom-bigcode/starcoderdata",
+      "type": "data",
+      "author": "RefinedWeb",
+      "name": "starcoderdata",
+      "group": "bigcode",
+      "version": "9fc30b5",
+      "purl": "pkg:dataset/bigcode/starcoderdata@9fc30b5",
+      "description": "StarCoder Training Dataset. This is the dataset used for training StarCoder and StarCoderBase. It contains 783GB of code in 86 programming languages, and includes 54GB GitHub Issues + 13GB Jupyter notebooks in scripts and text-code pairs, and 32GB of GitHub commits, which is approximately 250 Billion tokens.",
+      "data": [
+        {
+          "type": "dataset",
+          "name": "bigcode/starcoderdata",
+          "contents": {
+            "properties": [
+              { "value": "code", "name": "languages"}
+            ]
+          },
+          "sensitiveData": [
+            "train-00027-of-00055.parquet",
+            "train-00019-of-00055.parquet",
+            "train-00008-of-00055.parquet",
+            "train-00043-of-00059.parquet"
+          ]
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://huggingface.co/datasets/bigcode/starcoderdata"
+        },
+        {
+          "type": "documentation",
+          "url": "https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bom-togethercomputer/RedPajama-Data-1T",
+      "type": "data",
+      "author": "Together Computer",
+      "name": "RedPajama-Data-1T",
+      "group": "togethercomputer",
+      "version": "2794082",
+      "purl": "pkg:dataset/togethercomputer/RedPajama-Data-1T@2794082",
+      "description": "The dataset consists of 2084 jsonl files. RedPajama is a clean-room, fully open-source implementation of the LLaMa dataset.",
+      "data": [
+        {
+          "type": "dataset",
+          "name": "togethercomputer/RedPajama-Data-1T",
+          "contents": {
+            "properties": [
+              { "value": "code", "name": "languages"}
+            ]
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://huggingface.co/datasets/bigcode/starcoderdata"
+        },
+        {
+          "type": "documentation",
+          "url": "https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bom-transformers",
+      "type": "library",
+      "cpe": " cpe:2.3:a:huggingface:transformers:4.40.2:*:*:*:*:*:*:*",
+      "name": "transformers",
+      "version": "4.40.2",
+      "purl": "pkg:pypi/transformers@4.40.2",
+      "licenses": [{ "license": { "id": "Apache-2.0" } }]
+    },
+    {
+      "bom-ref": "openai-community/gpt2",
+      "type": "machine-learning-model",
+      "author": "Radford, Alec and Wu, Jeff and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya",
+      "name": "gpt2",
+      "group": "openai-community",
+      "version": "607a30d",
+      "purl": "pkg:transformers/openai-community/gpt2@607a30d",
+      "description": "Pretrained model on English language using a causal language modeling (CLM) objective. It was introduced in this paper and first released at this page.",
+      "licenses": [{ "license": { "id": "MIT" } }],
+      "modelCard": {
+        "modelParameters": {
+          "task": "text-generation",
+          "modelArchitecture": "GPT",
+          "inputs": [{ "format": "string" }],
+          "outputs": [{ "format": "string" }]
+        },
+        "considerations": {},
+        "properties": [
+          { "value": "transformers", "name": "pkgType" },
+          { "value": "english", "name": "language"}
+        ]
+      },
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://transformer.huggingface.co/doc/gpt2-large"
+        },
+        {
+          "type": "vcs",
+          "url": "https://huggingface.co/openai-community/gpt2"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "openlm-research/open_llama_3b_v2",
+      "dependsOn": [
+        "bom-tiiuae/falcon-refinedweb",
+        "bom-bigcode/starcoderdata",
+        "bom-togethercomputer/RedPajama-Data-1T"
+      ]
+    },
+    {
+      "ref": "bom-ai-app",
+      "dependsOn": [
+        "openlm-research/open_llama_3b_v2",
+        "bom-pytorch/torchserve",
+        "bom-transformers",
+        "openai-community/gpt2"
+        ]
+    }
+  ]
+}
