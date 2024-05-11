@@ -4,11 +4,19 @@ AI software supply chain security is the bedrock of ensuring the integrity, auth
 
 Welcome to an enlightening afternoon at the AI-BOM Workshop, conveniently timed during the RSAC 2024. This exclusive workshop delves into the critical realm of AI software supply chain security. Expert speakers will illuminate key facets including AI-BOM and AI software supply chain security. Engage in collaborative discussions alongside industry leaders, shaping best practices and charting the path forward. With concluding remarks from a notable US government official from CISA.gov, this workshop ensures a comprehensive exploration of strategies to secure AI landscapes across all industries.
 
+## Table of Contents
+_(Scroll for references and notes from the workshop)_
+1. [Agenda](#agenda)
+2. [Structured Group Discussion](#structured-group-discussion)
+3. [What's next?](#whats-next)
+
 
 ## Agenda
 Doors open at 12:30 PM PDT.
 
 Event details: [AIBOM-workshop-RSAC2024](https://lu.ma/AIBOM-workshop-RSAC2024)
+
+Sponsored by SAP, Secure Architecture Podcast, Manifest, and Cybeats.
 
 Recording is published to the YouTube channel [https://www.youtube.com/@SoftwareSupplyChainSecurity 
 ](https://www.youtube.com/@SoftwareSupplyChainSecurity)
@@ -48,4 +56,13 @@ Attendees will divide into groups, each focusing on a specific topic. The initia
 | 7  | AIBOM use cases (including biz operations & risk management)                                 | Explores various use cases of AIBOM in business operations and risk management to demonstrate its practical applications. | Identified use cases including medical devices, malware detection, vulnerability management, and transparency. Highlighted compliance needs around bias, fairness, and accountability. |
 
 
+## What's next?
+
+Check out the examples of AIBOMs within this repo.
+
 Register for CISA SBOM Tiger Team: AIBOM [here](https://docs.google.com/document/d/11UU_Wiaemi7zBs3sE-MgovieyPx1XJEOaju2EM5btts/edit?usp=sharing).
+
+Stay tuned for future engagements on AIBOM (forums, events, workshops)!
+
+
+_"This is not the end, this is only the beginning. Secure your AI software supply chain today, because innovation thrives where trust and protection meet!" ~Helen Oakley_ ;-)
