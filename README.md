@@ -16,7 +16,7 @@ Doors open at 12:30 PM PDT.
 
 Event details: [AIBOM-workshop-RSAC2024](https://lu.ma/AIBOM-workshop-RSAC2024)
 
-Sponsored by SAP, Secure Architecture Podcast, Manifest, and Cybeats.
+Sponsored by SAP, Security Architecture Podcast, Manifest, and Cybeats.
 
 Recording is published to the YouTube channel [https://www.youtube.com/@SoftwareSupplyChainSecurity 
 ](https://www.youtube.com/@SoftwareSupplyChainSecurity). 
